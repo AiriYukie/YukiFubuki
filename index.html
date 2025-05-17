@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portfolio | YukiFubuki</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Source/rose icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class='bx bx-menu'></i>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="close-btn" id="closeMenuBtn">
+            <i class='bx bx-x'></i>
+        </div>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Background -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-info">
+            <h1>Lester Fuentes</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="Junior Developer">Junior Developer</span>
+                <span style="--i:3;" data-text="Gamer">Gamer</span>
+                <span style="--i:2;" data-text="Streamer">Streamer</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Passionate and driven Junior Developer with a strong foundation in software development...</p>
+            <div class="btn-sci">
+                <a href="https://drive.google.com/uc?export=download&id=12u0qneqKDEvaJKLGgpWSWc5asR_ghKOT" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://www.facebook.com/YukiFubuki7424" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/AiriYukie" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+                    <a href="https://codepen.io/Lester-Fuentes" target="_blank" rel="noopener noreferrer"><i class='bx bxl-codepen'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Source/noob edit.png" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In <span>Touch</span></h2>
+        <form action="https://formsubmit.co/fuenteslester244@gmail.com" method="POST" class="contact-form">
+            <input type="text" name="_honey" style="display:none">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <input type="hidden" name="_next" value=" https://airiyukie.github.io/YukiFubuki/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to Top">
+        <img src="Source/Chisato.png" alt="Back to Top">
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
